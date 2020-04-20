@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@font-face {
+    font-family: "Gotham Medium";
+    src: url("../fonts/gotham-medium-webfont.woff2") format("woff2"),
+           url("../fonts/gotham-medium-webfont.woff") format("woff");   
+
+    font-family: "Gotham Bold";
+    src: url("../fonts/gothambold1.ttf") format("true-type"),
+            url("../fonts/gothambold1.woff") format("woff");  
+
+    font-family: "Gotham Book";
+    src: url("../fonts/GothamBook.ttf") format("true-type"),
+            url("../fonts/GothamBook.woff") format("woff");    
+   };
+
+$g-book: "Gotham Book", sans-serif;
+$g-bold: "Gotham Bold", sans-serif;
+$g-medium: "Gotham Medium", sans-serif;
+$os: 'Open Sans', sans-serif;
+
+@mixin title-bold {
+    font-family: $g-bold;
+    font-size: 44px;
+    color: #2c4058;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@mixin title-medium {
+    font-family: $g-medium;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+@mixin btn {
+        border: 1px solid #2c4058;
+        width: 190px;
+        height: 50px;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-family: $g-book;
+        font-size: 14px;
+}
+
+.social-box{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+
+}
+.social-item{
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    border-radius: 50%;
+    width: 39px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-self: center;
+    cursor: pointer;
+}
+.social-ico{
+    align-self: center;
+    font-size: 15px;
+    opacity: 1 !important;
+}
+
+.hr-line{
+    border-top: 1px solid #2c4058;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 140px;
+    height: 1px;
+}
+
+.social-item:hover{
+    background: #fff;
+    color: #55b7ff;
+}
+.social-item:active{
+    color: #7e5aff;
+}
+
+.button:hover{
+    background: #2f88c7;
+    color: #fff;
+    border-color: #2f88c7;
+    transition: all 0.1s ease-in-out;
+}
+.button{
+    transition: all 0.1s ease-in-out;
+}
+
+.add-visibility{
+    display: flex !important;
+}
