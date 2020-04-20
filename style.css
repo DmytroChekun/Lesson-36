@@ -212,23 +212,23 @@
 }
 
 .header .header__slide--1 {
-  background-image: url(../images/header/bg1.jpg);
+  background-image: url(./images/header/bg1.jpg);
 }
 
 .header .header__slide--2 {
-  background-image: url(../images/header/bg2.jpg);
+  background-image: url(./images/header/bg2.jpg);
 }
 
 .header .header__slide--3 {
-  background-image: url(../images/header/bg3.jpg);
+  background-image: url(./images/header/bg3.jpg);
 }
 
 .header .header__slide--4 {
-  background-image: url(../images/header/bg4.jpg);
+  background-image: url(./images/header/bg4.jpg);
 }
 
 .header .header__slide--5 {
-  background-image: url(../images/header/bg5.jpg);
+  background-image: url(./images/header/bg5.jpg);
 }
 
 .header__title {
@@ -653,7 +653,7 @@
 }
 
 .news-wrapper {
-  background-image: url(../images/news/Bg.jpg);
+  background-image: url(./images/news/Bg.jpg);
   background-position-y: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -801,7 +801,7 @@
 
 .news__slider .slick-prev {
   font-size: 0 !important;
-  background-image: url(../images/news/arLl.png);
+  background-image: url(./images/news/arLl.png);
   background-repeat: no-repeat;
   background-position: center;
   left: -90px;
@@ -809,7 +809,7 @@
 
 .news__slider .slick-next {
   font-size: 0 !important;
-  background-image: url(../images/news/arRr.png);
+  background-image: url(./images/news/arRr.png);
   background-repeat: no-repeat;
   background-position: center;
   right: -90px;
@@ -1019,7 +1019,7 @@
 }
 
 .contact__contact-box {
-  background-image: url(../images/contact/bg.png);
+  background-image: url(./images/contact/bg.png);
   background-position-y: bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1164,7 +1164,7 @@
 }
 
 .footer-wrapper {
-  background-image: url(../images/footer/bg.jpg);
+  background-image: url(./images/footer/bg.jpg);
   height: 525px;
   background-position-y: bottom;
   background-size: cover;

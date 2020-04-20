@@ -1,5 +1,5 @@
 .news-wrapper{
-    background-image: url(../images/news/Bg.jpg);
+    background-image: url(./images/news/Bg.jpg);
     background-position-y: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,14 +112,14 @@
     }
     .slick-prev{
         font-size: 0 !important;
-        background-image: url(../images/news/arLl.png);
+        background-image: url(./images/news/arLl.png);
         background-repeat: no-repeat;
         background-position: center;
         left: -90px;
     }
     .slick-next{
         font-size: 0 !important;
-        background-image: url(../images/news/arRr.png);
+        background-image: url(./images/news/arRr.png);
         background-repeat: no-repeat;
         background-position: center;
         right: -90px;
