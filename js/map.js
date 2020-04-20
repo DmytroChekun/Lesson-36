@@ -362,7 +362,7 @@ function initMap() {
         ]
       });
   var icon = {
-    url: "../images/pin-map.png", // url
+    url: "./images/pin-map.png", // url
     scaledSize: new google.maps.Size(75, 75)
   }
   var marker = new google.maps.Marker({

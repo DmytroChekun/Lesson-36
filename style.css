@@ -9,11 +9,11 @@
 
 @font-face {
   font-family: "Gotham Medium";
-  src: url("../fonts/gotham-medium-webfont.woff2") format("woff2"), url("../fonts/gotham-medium-webfont.woff") format("woff");
+  src: url("./fonts/gotham-medium-webfont.woff2") format("woff2"), url("./fonts/gotham-medium-webfont.woff") format("woff");
   font-family: "Gotham Bold";
-  src: url("../fonts/gothambold1.ttf") format("true-type"), url("../fonts/gothambold1.woff") format("woff");
+  src: url("./fonts/gothambold1.ttf") format("true-type"), url("./fonts/gothambold1.woff") format("woff");
   font-family: "Gotham Book";
-  src: url("../fonts/GothamBook.ttf") format("true-type"), url("../fonts/GothamBook.woff") format("woff");
+  src: url("./fonts/GothamBook.ttf") format("true-type"), url("./fonts/GothamBook.woff") format("woff");
 }
 
 .social-box {
