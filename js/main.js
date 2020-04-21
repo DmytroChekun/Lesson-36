@@ -23,7 +23,6 @@ $(document).ready(function() {
     pauseOnDotsHover: true, //default
     waitForAnimate: false,
     centerMode: false, //default
-    verticalSwiping: true,
     touchMove: false,
     swipeToSlide: false,
     responsive: [
