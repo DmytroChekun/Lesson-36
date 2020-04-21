@@ -83,7 +83,9 @@
 
 .news__slider{
     display: flex;
-    margin: 0 auto;
+    
+    width: 1200px;
+    margin: 0 auto !important;
     max-width: 1200px;
     .slick-dots{
         display: flex;
