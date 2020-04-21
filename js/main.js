@@ -53,6 +53,7 @@ $('.news__slider').slick({
   centerMode: false, //default
   touchMove: true,
   variableWidth: true,
+  swipeToSlide: true,
   responsive: [
     {
       breakpoint: 1600,
