@@ -9,7 +9,6 @@ $(window).scroll(function(){
 
 $(document).ready(function() {
     $('.header__slider').slick({
-    // adaptiveHight: true,
     dots: true,
     vertical: true,
     slidesToShow: 1,

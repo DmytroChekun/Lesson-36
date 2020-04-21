@@ -97,6 +97,13 @@ $os: 'Open Sans', sans-serif;
     transition: all 0.1s ease-in-out;
     cursor: pointer;
 }
+.button:active{
+    transition: all 0.05s ease;
+    background: rgba(85, 59, 182, 0.555);
+    outline: none;
+}
+
+
 
 .add-visibility{
     display: flex !important;

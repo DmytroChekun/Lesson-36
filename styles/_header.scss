@@ -25,6 +25,7 @@
             display: flex;
             justify-content: space-between;
             margin: 0 auto;
+            position: relative;
         }
         &__logo-box{
             margin-right: 5%;
@@ -175,17 +176,19 @@
 }
 
 .burger-menu{
-  position: fixed;
+  position: absolute;
   z-index: 500;
   display: flex;
   flex-direction: column;
   right: 0%;
-  top: 60px;
-  height: 200px;
-  padding: 10px;
-  background: #8fa8faea;
+  top: 50px;
+  background: hsla(215, 87%, 66%, 0.604);
   justify-content: space-between;
   display: none;
+  padding: 12px 10px 0px 10px;
+  a .nav__item{
+      height: 40px;
+  }
 }
 .burger{
   margin-right: 8px;
@@ -209,10 +212,11 @@
   cursor: pointer;
 }
 .slide-down:hover{
-  background: #55b8ff6c;
+  background: rgba(85, 184, 255, 0.424);
 }
 .slide-down:active{
-  width: 52px;
+    background: rgba(126, 90, 255, 0.219);
+    transition: all 0.15s ease;
 }
 
 @media (max-width: 1200px){
