@@ -133,17 +133,21 @@
     .slick-dots{
         display: flex !important;
         flex-direction: column !important;
-        bottom: 260px;
+        position: absolute;
+        bottom: 300px;
         right: 5%;
-        display: block;
+        height: 220px;
+        justify-content: space-between;
         width: 15px;
         list-style: none;
+        z-index: 999;
         button{
             width: 10px !important;
             height: 10px !important;
             font-size: 0 !important;
             background-color: transparent;
             border-radius: 50%;
+            border: 1px solid #fff !important;
         }
     }
     .slick-active button{

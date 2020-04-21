@@ -25,7 +25,8 @@ $(document).ready(function() {
     waitForAnimate: false,
     centerMode: false, //default
     verticalSwiping: true,
-    touchMove: true,
+    touchMove: false,
+    swipeToSlide: false,
     responsive: [
         {
             breakpoint: 600,
@@ -46,7 +47,7 @@ $('.news__slider').slick({
   easing: 'ease',
   arrows: true,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 3700,
   pauseOnFocus: true, //default
   pauseOnHover: false, //default
   pauseOnDotsHover: true, //default

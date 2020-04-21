@@ -95,8 +95,14 @@ $os: 'Open Sans', sans-serif;
 }
 .button{
     transition: all 0.1s ease-in-out;
+    cursor: pointer;
 }
 
 .add-visibility{
     display: flex !important;
+}
+
+.slick-dots button{
+    border: 1px solid #fff;
+    cursor: pointer;
 }

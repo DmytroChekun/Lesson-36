@@ -79,12 +79,18 @@
 .button {
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+  cursor: pointer;
 }
 
 .add-visibility {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+
+.slick-dots button {
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 
 @-webkit-keyframes float {
@@ -283,11 +289,16 @@
   -webkit-box-direction: normal !important;
       -ms-flex-direction: column !important;
           flex-direction: column !important;
-  bottom: 260px;
+  position: absolute;
+  bottom: 300px;
   right: 5%;
-  display: block;
+  height: 220px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 15px;
   list-style: none;
+  z-index: 999;
 }
 
 .header__slider .slick-dots button {
@@ -296,6 +307,7 @@
   font-size: 0 !important;
   background-color: transparent;
   border-radius: 50%;
+  border: 1px solid #fff !important;
 }
 
 .header__slider .slick-active button {
