@@ -112,3 +112,19 @@
     outline: none;
     border: none;
 }
+
+.contact__name::-webkit-input-placeholder, .contact__email::-webkit-input-placeholder {
+    font-family: $g-book;
+  }
+  
+  .contact__name:-ms-input-placeholder, .contact__email:-ms-input-placeholder {
+    font-family: $g-book;
+  }
+  
+  .contact__name:-moz-placeholder, .contact__email:-moz-placeholder {
+    font-family: $g-book;
+  }
+  
+  .contact__name::-moz-placeholder, .contact__email::-moz-placeholder {
+    font-family: $g-book;
+  }
