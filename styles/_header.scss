@@ -76,6 +76,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: -1px;
+        height: 100vh !important;
         &--1{
             background-image: url(./images/header/bg1.jpg);
         }
@@ -118,12 +119,12 @@
     justify-content: center;
     color: #fff;
     position: absolute;
-    margin: 0 auto;
+    top: 90vh;
     left: 0px;
-    right: 0px;
-    top: 715px;
     bottom: 0px;
+    right: 0px;
     
+    margin: 0 auto;
 }
 .arrow-down{
     font-size: 20px;
@@ -251,6 +252,7 @@
   @media (max-width: 768px) {
     .nav__logo-box{
         width: 35% !important;
+        align-self: center;
     }
     .nav__social-box{
         width: 35% !important;
@@ -264,7 +266,18 @@
   }
   @media (max-width: 560px){
     .header__title{
-        font-size: 52px;
+        font-size: 40px;
+    }
+    .header__subtitle{
+        font-size: 15px;
     }
   }
 
+  @media (max-width: 375px){
+    .nav__social-box{
+        width: 120px !important;
+    }
+    .nav__logo-box{
+        width: 40% !important;
+    }
+  }

@@ -21,7 +21,7 @@ $(document).ready(function() {
     pauseOnFocus: true, //default
     pauseOnHover: false, //default
     pauseOnDotsHover: true, //default
-    waitForAnimate: false,
+    waitForAnimate: true,
     centerMode: false, //default
     touchMove: false,
     swipeToSlide: false,
@@ -44,12 +44,12 @@ $('.news__slider').slick({
   speed: 800,
   easing: 'ease',
   arrows: true,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3700,
   pauseOnFocus: true, //default
   pauseOnHover: false, //default
   pauseOnDotsHover: true, //default
-  waitForAnimate: false,
+  waitForAnimate: true,
   centerMode: false, //default
   touchMove: true,
   variableWidth: true,
@@ -91,3 +91,17 @@ $('.news__slider').slick({
 });
 });
 
+
+// Smooth-scroll
+$(document).ready(function(){
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+      var target = this.hash;
+      $target = $(target);
+      $('html, body').stop().animate({
+          'scrollTop':  $target.offset().top
+      }, 900, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
+});
